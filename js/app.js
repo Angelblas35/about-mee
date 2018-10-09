@@ -58,5 +58,19 @@ if (answerFour === 'yes' || answerFour === 'y' || answerFour === 'yup') {
     console.log('the user answered correctly');
 } else {answerFour === 'no' || answerFour === 'n' || answerFour === 'nope';
 
-alert('How dare you insult my two fur babies!'); 
+alert('How dare you insult my two fur babies!');
+console.log('the user answered incorrectly') 
+}
+
+
+var answerFive = prompt('Is my favorite show All My Childeren?').toLowerCase()
+
+if (answerFive === 'yes' || answerFive === 'y' || answerFive === "yup") {
+
+    alert('DOH!');
+    console.log('the user answered incorrectly');
+} else {answerFive === 'no' || answerFive === 'n' || answerFive === 'nope';
+
+alert('WOOHOO!');
+console.log('the user answered correctly')
 }
