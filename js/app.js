@@ -21,3 +21,18 @@ console.log('The user answered correctly')
     // console.log the result
   console.log('The user answered incorrectly');
 }
+
+var answerTwo = prompt('Do I has all the bacons?').toLowerCase()
+
+if (answerTwo === 'yes' || answerTwo === 'y' || answerTwo === 'yup') {
+
+    alert('Shhhhh tell know one');
+
+    console.log('The user answered correctly');
+
+} else {answerTwo === 'no' || answerTwo === 'n' || answerTwo === 'nope';
+
+alert('You underestimate me FOOL!');
+
+console.log('The user answered incorrectly');
+}
