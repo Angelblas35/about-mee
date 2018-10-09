@@ -36,3 +36,27 @@ alert('You underestimate me FOOL!');
 
 console.log('The user answered incorrectly');
 }
+
+var answerThree = prompt('Do I like cake?').toLowerCase()
+
+if (answerThree === 'yes' || answerThree === 'y' || answerThree === 'yup') {
+
+    alert('Ew gross');
+    console.log('The user answered incorrectly');
+
+} else {answerThree === 'no' || answerThree === 'n' || answerThree === 'nope';
+
+alert('Brownies are better');
+console.log('the user answered correctly');
+}
+
+var answerFour = prompt('Do I love Boston Terriers?').toLowerCase()
+
+if (answerFour === 'yes' || answerFour === 'y' || answerFour === 'yup') {
+
+    alert('Darn tootin! That is why I have two!');
+    console.log('the user answered correctly');
+} else {answerFour === 'no' || answerFour === 'n' || answerFour === 'nope';
+
+alert('How dare you insult my two fur babies!'); 
+}
