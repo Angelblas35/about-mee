@@ -74,3 +74,13 @@ if (answerFive === 'yes' || answerFive === 'y' || answerFive === 'yup') {
   alert('WOOHOO!');
   console.log('the user answered correctly')
 }
+
+var answerSix = prompt('How many cities have I lived in?').toLowerCase()
+
+if (answerSix > 5) {
+	alert('Too low try again');
+}else if (answerSix < 5) {
+		alert('Too high try again');
+}else (answerSix === 5) ;
+		alert('Perfect! That is correct!');
+
