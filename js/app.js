@@ -25,6 +25,7 @@ function q1() {
 }
 q1();
 
+//Question 2
 function q2(){
   
   var answerTwo = prompt('Do I has all the bacons?').toLowerCase()
@@ -44,23 +45,28 @@ function q2(){
 }
 q3();
 
-var answerThree = prompt('Do I like cake?').toLowerCase()
-
-if (answerThree === 'yes' || answerThree === 'y' || answerThree === 'yup') {
+//Question 3
+function q3(){
   
-  alert('Ew gross');
-  console.log('The user answered incorrectly');
+  var answerThree = prompt('Do I like cake?').toLowerCase()
   
-} else {answerThree === 'no' || answerThree === 'n' || answerThree === 'nope';
-
-alert('Brownies are better');
-console.log('the user answered correctly');
+  if (answerThree === 'yes' || answerThree === 'y' || answerThree === 'yup') {
+    
+    alert('Ew gross');
+    console.log('The user answered incorrectly');
+    
+  } else {answerThree === 'no' || answerThree === 'n' || answerThree === 'nope';
+  
+  alert('Brownies are better');
+  console.log('the user answered correctly');
 }
+}
+q3();
 
 var answerFour = prompt('Do I love Boston Terriers?').toLowerCase()
 
 if (answerFour === 'yes' || answerFour === 'y' || answerFour === 'yup') {
-
+  
   alert('Darn tootin! That is why I have two!');
   console.log('the user answered correctly');
 } else {answerFour === 'no' || answerFour === 'n' || answerFour === 'nope';
