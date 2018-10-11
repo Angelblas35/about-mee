@@ -7,6 +7,7 @@ console.log('the user answered ' + username)
 
 alert('Glad you stopped by, ' + username)
 //Question One
+
 function q1() {
   var answerOne = prompt('Do I like Halloween?').toLowerCase()
   
@@ -26,8 +27,8 @@ function q1() {
 q1();
 
 //Question 2
+
 function q2(){
-  
   var answerTwo = prompt('Do I has all the bacons?').toLowerCase()
   
   if (answerTwo === 'yes' || answerTwo === 'y' || answerTwo === 'yup') {
@@ -46,8 +47,8 @@ function q2(){
 q3();
 
 //Question 3
+
 function q3(){
-  
   var answerThree = prompt('Do I like cake?').toLowerCase()
   
   if (answerThree === 'yes' || answerThree === 'y' || answerThree === 'yup') {
@@ -62,10 +63,11 @@ function q3(){
 }
 }
 q3();
+
  //Question 4
+
  function q4(){
-   
-   var answerFour = prompt('Do I love Boston Terriers?').toLowerCase()
+    var answerFour = prompt('Do I love Boston Terriers?').toLowerCase()
    
    if (answerFour === 'yes' || answerFour === 'y' || answerFour === 'yup') {
   
@@ -80,9 +82,9 @@ console.log('the user answered incorrectly');
 q4();
  
 //Question 5
+
 function q5(){
-  
-  var answerFive = prompt('Is my favorite show All My Childeren?').toLowerCase()
+    var answerFive = prompt('Is my favorite show All My Childeren?').toLowerCase()
   
   if (answerFive === 'yes' || answerFive === 'y' || answerFive === 'yup') {
     
@@ -97,9 +99,9 @@ console.log('the user answered correctly')
 q5();
 
 //Question 6
+
 function q6(){
-  
-  for (var i = 0; i < 4; i++){
+    for (var i = 0; i < 4; i++){
     var answerSix = prompt('How many cities have I lived in?').toLowerCase()
     
     if (answerSix > 5) {
@@ -113,8 +115,8 @@ function q6(){
 q6();
 
 //Quesiton 7
+
 function q7(){
-  
   alert('Perfect! That is correct!');
   console.log('the user answered correctly')
   
