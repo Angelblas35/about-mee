@@ -96,17 +96,21 @@ console.log('the user answered correctly')
 }
 q5();
 
-for (var i = 0; i < 4; i++){
-  var answerSix = prompt('How many cities have I lived in?').toLowerCase()
+//Question 6
+function q6(){
   
-  if (answerSix > 5) {
-    alert('Too high try again');
-  }else if (answerSix < 5) {
+  for (var i = 0; i < 4; i++){
+    var answerSix = prompt('How many cities have I lived in?').toLowerCase()
+    
+    if (answerSix > 5) {
+      alert('Too high try again');
+    }else if (answerSix < 5) {
     alert('Too low try again');
   }else (answerSix === 5)
   break
 }
-
+}
+q6();
 
 alert('Perfect! That is correct!');
 console.log('the user answered correctly')
@@ -123,7 +127,7 @@ var correctAnswer = true;
 
 while (guesses > 0 && correctAnswer) {
   var answerSeven = prompt('Name a city I have lived in.')
-
+  
   for (var j = 0; j < citys.length; j++){
     if (answerSeven.toLowerCase() === citys[i].toLowerCase()) {
       alert('thats  right');
