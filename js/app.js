@@ -62,30 +62,34 @@ function q3(){
 }
 }
 q3();
-
-var answerFour = prompt('Do I love Boston Terriers?').toLowerCase()
-
-if (answerFour === 'yes' || answerFour === 'y' || answerFour === 'yup') {
+ //Question 4
+ function q4(){
+   
+   var answerFour = prompt('Do I love Boston Terriers?').toLowerCase()
+   
+   if (answerFour === 'yes' || answerFour === 'y' || answerFour === 'yup') {
   
   alert('Darn tootin! That is why I have two!');
   console.log('the user answered correctly');
 } else {answerFour === 'no' || answerFour === 'n' || answerFour === 'nope';
 
-  alert('How dare you insult my two fur babies!');
-  console.log('the user answered incorrectly');
+alert('How dare you insult my two fur babies!');
+console.log('the user answered incorrectly');
 }
+}
+q4();
 
 
 var answerFive = prompt('Is my favorite show All My Childeren?').toLowerCase()
 
 if (answerFive === 'yes' || answerFive === 'y' || answerFive === 'yup') {
-
+  
   alert('DOH!');
   console.log('the user answered incorrectly');
 } else {answerFive === 'no' || answerFive === 'n' || answerFive === 'nope';
 
-  alert('WOOHOO!');
-  console.log('the user answered correctly')
+alert('WOOHOO!');
+console.log('the user answered correctly')
 }
 
 for (var i = 0; i < 4; i++){
