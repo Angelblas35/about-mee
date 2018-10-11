@@ -6,28 +6,31 @@ var username = prompt('What is your name?');
 console.log('the user answered ' + username)
 
 alert('Glad you stopped by, ' + username)
-// function questionOne() {}
-var answerOne = prompt('Do I like Halloween?').toLowerCase()
-
-if (answerOne === 'yes' || answerOne === 'y' || answerOne === 'yup') {
-  // Tell them
-  alert('You know it');
-  // console.log the result
-  console.log('The user answered correctly')
-
-} else {answerOne=== 'no' || answerOne === 'n' || answerOne === 'nope';
+//Question One
+function q1() {
+  var answerOne = prompt('Do I like Halloween?').toLowerCase()
+  
+  if (answerOne === 'yes' || answerOne === 'y' || answerOne === 'yup') {
+    // Tell them
+    alert('You know it');
+    // console.log the result
+    console.log('The user answered correctly')
+    
+  } else {answerOne=== 'no' || answerOne === 'n' || answerOne === 'nope';
   // Tell them
   alert('BOOOO! That is not right!');
   // console.log the result
   console.log('The user answered incorrectly');
 }
+}
+q1();
 
 var answerTwo = prompt('Do I has all the bacons?').toLowerCase()
 
 if (answerTwo === 'yes' || answerTwo === 'y' || answerTwo === 'yup') {
-
+  
   alert('Shhhhh tell know one');
-
+  
   console.log('The user answered correctly');
 
 } else {answerTwo === 'no' || answerTwo === 'n' || answerTwo === 'nope';
