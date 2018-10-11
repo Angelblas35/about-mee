@@ -25,32 +25,36 @@ function q1() {
 }
 q1();
 
-var answerTwo = prompt('Do I has all the bacons?').toLowerCase()
-
-if (answerTwo === 'yes' || answerTwo === 'y' || answerTwo === 'yup') {
+function q2(){
   
-  alert('Shhhhh tell know one');
+  var answerTwo = prompt('Do I has all the bacons?').toLowerCase()
   
-  console.log('The user answered correctly');
+  if (answerTwo === 'yes' || answerTwo === 'y' || answerTwo === 'yup') {
+    
+    alert('Shhhhh tell know one');
+    
+    console.log('The user answered correctly');
 
-} else {answerTwo === 'no' || answerTwo === 'n' || answerTwo === 'nope';
-
+  } else {answerTwo === 'no' || answerTwo === 'n' || answerTwo === 'nope';
+  
   alert('You underestimate me FOOL!');
-
+  
   console.log('The user answered incorrectly');
 }
+}
+q3();
 
 var answerThree = prompt('Do I like cake?').toLowerCase()
 
 if (answerThree === 'yes' || answerThree === 'y' || answerThree === 'yup') {
-
+  
   alert('Ew gross');
   console.log('The user answered incorrectly');
-
+  
 } else {answerThree === 'no' || answerThree === 'n' || answerThree === 'nope';
 
-  alert('Brownies are better');
-  console.log('the user answered correctly');
+alert('Brownies are better');
+console.log('the user answered correctly');
 }
 
 var answerFour = prompt('Do I love Boston Terriers?').toLowerCase()
