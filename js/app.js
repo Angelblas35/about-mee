@@ -112,29 +112,32 @@ function q6(){
 }
 q6();
 
-alert('Perfect! That is correct!');
-console.log('the user answered correctly')
-
-var citys = ['Milwaukee', 'Kansas City', 'Pittsburgh', 'Fort Lauderdale', 'Seattle'];
-console.log(citys[0])
-console.log(citys[1])
-console.log(citys[2])
-console.log(citys[3])
-console.log(citys[4])
-
-var guesses = 6;
-var correctAnswer = true;
-
-while (guesses > 0 && correctAnswer) {
-  var answerSeven = prompt('Name a city I have lived in.')
+//Quesiton 7
+function q7(){
   
-  for (var j = 0; j < citys.length; j++){
-    if (answerSeven.toLowerCase() === citys[i].toLowerCase()) {
-      alert('thats  right');
-      correctAnswer= false
+  alert('Perfect! That is correct!');
+  console.log('the user answered correctly')
+  
+  var citys = ['Milwaukee', 'Kansas City', 'Pittsburgh', 'Fort Lauderdale', 'Seattle'];
+  console.log(citys[0])
+  console.log(citys[1])
+  console.log(citys[2])
+  console.log(citys[3])
+  console.log(citys[4])
+  
+  var guesses = 6;
+  var correctAnswer = true;
+  
+  while (guesses > 0 && correctAnswer) {
+    var answerSeven = prompt('Name a city I have lived in.')
+    
+    for (var j = 0; j < citys.length; j++){
+      if (answerSeven.toLowerCase() === citys[i].toLowerCase()) {
+        alert('thats  right');
+        correctAnswer= false
+      }
     }
-  }
-  guesses--;
+    guesses--;
   if(guesses < 0 && correctAnswer){
     alert('wrong answer. try again');
   }
@@ -143,6 +146,8 @@ while (guesses > 0 && correctAnswer) {
 alert(' I have lived in Milwaukee, Kansas City, Pittsburgh, Fort Lauderdale and Seattle');
 
 alert('Congratulations you made it through my quizz');
+}
+q7();
 
 // how many answers did the user get right and how many questions were there
 
