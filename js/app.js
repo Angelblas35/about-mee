@@ -78,12 +78,14 @@ console.log('the user answered incorrectly');
 }
 }
 q4();
-
-
-var answerFive = prompt('Is my favorite show All My Childeren?').toLowerCase()
-
-if (answerFive === 'yes' || answerFive === 'y' || answerFive === 'yup') {
+ 
+//Question 5
+function q5(){
   
+  var answerFive = prompt('Is my favorite show All My Childeren?').toLowerCase()
+  
+  if (answerFive === 'yes' || answerFive === 'y' || answerFive === 'yup') {
+    
   alert('DOH!');
   console.log('the user answered incorrectly');
 } else {answerFive === 'no' || answerFive === 'n' || answerFive === 'nope';
@@ -91,10 +93,12 @@ if (answerFive === 'yes' || answerFive === 'y' || answerFive === 'yup') {
 alert('WOOHOO!');
 console.log('the user answered correctly')
 }
+}
+q5();
 
 for (var i = 0; i < 4; i++){
   var answerSix = prompt('How many cities have I lived in?').toLowerCase()
-
+  
   if (answerSix > 5) {
     alert('Too high try again');
   }else if (answerSix < 5) {
