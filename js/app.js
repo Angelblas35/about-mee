@@ -6,7 +6,7 @@ var username = prompt('What is your name?');
 console.log('the user answered ' + username)
 
 alert('Glad you stopped by, ' + username)
-
+// function questionOne() {}
 var answerOne = prompt('Do I like Halloween?').toLowerCase()
 
 if (answerOne === 'yes' || answerOne === 'y' || answerOne === 'yup') {
